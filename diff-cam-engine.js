@@ -19,6 +19,7 @@ var DiffCamEngine = (function() {
 	var captureHeight;			// full captured image height
 	var diffWidth;				// downscaled width for diff/motion
 	var diffHeight;				// downscaled height for diff/motion
+	var coords;					// coordinates for motion box
 	var isReadyToDiff;			// has a previous capture been made to diff against?
 	var pixelDiffThreshold;		// min for a pixel to be considered significant
 	var scoreThreshold;			// min for an image to be considered significant
